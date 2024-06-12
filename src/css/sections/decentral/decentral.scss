@@ -19,6 +19,10 @@
     align-items: center;
     gap: 0.66rem;
     color: var(--cw);
+    &:hover .decentral__name {
+      filter: invert(64%) sepia(30%) saturate(865%) hue-rotate(105deg)
+        brightness(115%) contrast(114%);
+    }
   }
   &__logo-wrapp {
     width: 3.44588rem;
@@ -37,6 +41,7 @@
     line-height: 1.75438rem;
     letter-spacing: -0.06194rem;
     text-transform: capitalize;
+    transition: all 200ms;
   }
   &__desc {
     font-weight: 600;
@@ -73,13 +78,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: all 200ms;
+      &:hover {
+        filter: invert(64%) sepia(30%) saturate(865%) hue-rotate(105deg)
+          brightness(115%) contrast(114%);
+      }
     }
   }
 }
 
-.decentral-blur1 {
-  top: -28.04rem;
-  right: -43.44rem;
+.decentral-blur1,
+.decentral-blur2 {
+  z-index: -1;
   position: absolute;
   width: 55.5rem;
   height: 55.5rem;
@@ -88,14 +98,52 @@
   background-color: var(--cg);
   filter: blur(300px);
 }
+.decentral-blur1 {
+  top: -28.04rem;
+  right: -43.44rem;
+}
 .decentral-blur2 {
   bottom: -39.62rem;
   left: -23.5rem;
-  position: absolute;
-  width: 55.5rem;
-  height: 55.5rem;
-  border-radius: 55.5rem;
-  opacity: 0.48;
-  background-color: var(--cg);
-  filter: blur(300px);
+}
+
+@media screen and (max-width: 900px) {
+  .decentral {
+    &__header {
+      margin-bottom: 8.44rem;
+    }
+    &__hero {
+      margin-bottom: 6.5rem;
+    }
+    &__title {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    &__text {
+      font-family: var(--ff);
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .decentral-blur1,
+  .decentral-blur2 {
+    width: 33.625rem;
+    height: 33.625rem;
+    border-radius: 33.625rem;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .decentral-blur1 {
+    top: -22.12rem;
+  }
+  .decentral-blur2 {
+    bottom: -22.12rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .decentral {
+  }
 }
