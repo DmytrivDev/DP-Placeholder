@@ -26,8 +26,10 @@
     gap: 0.66rem;
     color: var(--cw);
     &:hover .decentral__name {
-      filter: invert(64%) sepia(30%) saturate(865%) hue-rotate(105deg)
-        brightness(115%) contrast(114%);
+      color: var(--cv);
+    }
+    &:hover .decentral__logo-wrapp {
+      background-color: var(--cv);
     }
   }
   &__logo-wrapp {
@@ -40,6 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 200ms;
   }
   &__name {
     font-size: 2.064rem;
