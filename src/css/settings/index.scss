@@ -1,0 +1,88 @@
+@media screen and (max-width: 960px) {
+  .hero {
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+  }
+}
+
+.color-page {
+  background-color: var(--cx);
+}
+
+.section-def {
+  padding: 6rem 0;
+}
+.section-other {
+  padding: 3rem 0;
+}
+
+.title-def {
+  color: var(--ch);
+  font-size: 2.375rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2.8rem;
+}
+
+.bloc-text {
+  color: var(--ct);
+  font-size: 0.938em;
+  line-height: 1.65em;
+  p {
+    margin-top: 0.7em;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.btn-def {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3125rem;
+  background-color: var(--cb);
+  padding: 1.25rem 1.875rem;
+  color: var(--cw);
+  line-height: normal;
+  transition: all 200ms;
+  &:hover,
+  &:focus {
+    background-color: var(--cn);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .color-page {
+    background-color: transparent;
+  }
+
+  .section-def {
+    padding: 4.5rem 0;
+  }
+  .section-other {
+    padding: 2.25rem 0;
+  }
+
+  .title-def {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .bloc-text {
+    font-size: 0.875em;
+    line-height: 1.785em;
+    p {
+      margin-top: 0.6em;
+    }
+  }
+
+  .btn-def {
+    font-size: 0.875rem;
+  }
+}

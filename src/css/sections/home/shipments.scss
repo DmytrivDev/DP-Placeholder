@@ -1,0 +1,145 @@
+.shipments {
+  position: relative;
+  background-color: var(--cm);
+  padding: 10rem 0 3rem 0;
+  &__top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+  &__info-body {
+    border-radius: 0.625rem;
+    background-color: var(--cb);
+    padding: 3.5rem 4rem;
+  }
+  &__info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      h3 {
+        color: var(--cw);
+        font-size: 1.75rem;
+        font-weight: 600;
+        line-height: 1.7rem;
+      }
+      p {
+        color: var(--cw);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1rem;
+      }
+    }
+  }
+  &__bottom {
+  }
+  &__body {
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.19rem;
+  }
+  &__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.3125rem;
+    transition: all 200ms;
+    &:hover .shipments__img-wrapp {
+      transform: scale(1.1);
+    }
+  }
+  &__img-wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  &__text-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 1.75rem 2.2rem;
+    background: var(--gradient1);
+    display: flex;
+    align-items: end;
+    p {
+      color: var(--cw);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .shipments {
+    padding: 10rem 0 2.25rem 0;
+    &__info-body {
+      padding: 1.5rem 1.9rem;
+    }
+    &__info-list {
+      justify-content: space-evenly;
+      li {
+        align-items: start;
+        gap: 0.05rem;
+        h3 {
+          font-size: 1.3125rem;
+          line-height: 1.77188rem;
+        }
+        p {
+          font-size: 0.875rem;
+          line-height: 1.225rem;
+          width: 7rem;
+        }
+      }
+    }
+    &__list {
+      grid-template-columns: repeat(1, 30rem);
+      justify-content: center;
+    }
+    &__item {
+      &:hover .shipments__img-wrapp {
+        transform: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .shipments {
+    &__info-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: start;
+      justify-items: center;
+      gap: 1.5rem;
+    }
+    &__list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__text-box {
+      padding: 1.12rem 1.55rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .shipments {
+  }
+}

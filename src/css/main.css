@@ -1,0 +1,73 @@
+/* Settings */
+@import url('./settings/fonts.scss');
+@import url('./settings/default.scss');
+@import url('./settings/variables.scss');
+@import url('./settings/index.scss');
+@import url('./settings/general.scss');
+@import url('./sections/embeded/embeded.scss');
+
+/* General-sections */
+@import url('./sections/general/companies.scss');
+@import url('./sections/general/overview.scss');
+@import url('./sections/general/delivery.scss');
+@import url('./sections/general/calcwidget.scss');
+
+/* Header */
+@import url('./sections/header/top.scss');
+@import url('./sections/header/bottom.scss');
+@import url('./sections/header/mob.scss');
+
+/* Home */
+@import url('./sections/home/hero.scss');
+@import url('./sections/home/benefits.scss');
+@import url('./sections/home/companies.scss');
+@import url('./sections/home/shipments.scss');
+@import url('./sections/home/price.scss');
+@import url('./sections/home/overview.scss');
+@import url('./sections/home/feedback.scss');
+@import url('./sections/home/courier.scss');
+@import url('./sections/home/delivery.scss');
+
+/* About */
+@import url('./sections/about/overview.scss');
+@import url('./sections/about/success.scss');
+@import url('./sections/about/companies.scss');
+@import url('./sections/about/delivery.scss');
+
+/* Contact */
+@import url('./sections/contact/contact.scss');
+@import url('./sections/contact/delivery.scss');
+
+/* Calculatorwrapp */
+@import url('./sections/calcwrapp/calcstep1.scss');
+@import url('./sections/calcwrapp/calcsteps.scss');
+@import url('./sections/calcwrapp/calcorder.scss');
+
+/* Calculator1 */
+@import url('./sections/calcstep1/calcstep1.scss');
+
+/* Calculator2 */
+@import url('./sections/calcstep2/calcwidget.scss');
+
+/* Calculator3 */
+@import url('./sections/calcstep3/calcwidget.scss');
+
+/* Calculator4 */
+@import url('./sections/calcstep4/calcwidget.scss');
+
+/* Calculator5 */
+@import url('./sections/calcstep5/calcwidget.scss');
+
+/* Calculator6 */
+@import url('./sections/calcstep6/calcwidget.scss');
+
+/* Calculator-order */
+@import url('./sections/calcorder/calcorder.scss');
+
+/* Error */
+@import url('./sections/error/error.scss');
+@import url('./sections/error/delivery.scss');
+
+/* Footer */
+@import url('./sections/footer/home/footer.scss');
+@import url('./sections/footer/calc/footer.scss');
