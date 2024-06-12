@@ -5,4 +5,4 @@
 @import url('./settings/general.scss');
 
 /* Home */
-@import url('./sections/placeholder.scss');
+@import url('./sections/decentral/decentral.scss');

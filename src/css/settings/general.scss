@@ -4,6 +4,7 @@ body {
   color: var(--cw);
   font-size: 1rem;
   line-height: 1.5;
+  background-color: var(--cb);
 }
 
 .overhide {
@@ -21,6 +22,7 @@ body {
   max-width: 58em;
   padding: 0 2.5em;
   margin: 0 auto;
+  height: 100%;
 }
 
 @media screen and (max-width: 1024px) {

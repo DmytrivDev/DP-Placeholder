@@ -20,7 +20,6 @@
   "author": "Andrii Dmytriv",
   "license": "ISC",
   "dependencies": {
-    "flatpickr": "^4.6.13",
     "npm": "^10.7.0",
     "sass": "^1.72.0",
     "vite-plugin-full-reload": "^1.0.5",

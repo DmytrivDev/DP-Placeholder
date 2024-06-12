@@ -1,0 +1,101 @@
+.decentral {
+  padding: 4.3rem 0 4rem 0;
+  height: 100vh;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  &__header {
+    margin-bottom: 6.06rem;
+  }
+  &__box {
+    margin-bottom: 0.5rem;
+  }
+  &__logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.66rem;
+    color: var(--cw);
+  }
+  &__logo-wrapp {
+    width: 3.44588rem;
+    height: 3.44594rem;
+    flex-shrink: 0;
+    border-radius: 0.50513rem;
+    background: var(--cw);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__name {
+    font-size: 2.064rem;
+    font-weight: 500;
+    line-height: 1.75438rem;
+    letter-spacing: -0.06194rem;
+    text-transform: capitalize;
+  }
+  &__desc {
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  &__hero {
+    height: 100%;
+    margin-bottom: 5rem;
+  }
+  &__title {
+    color: var(--cg);
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  &__text {
+    text-align: center;
+    font-family: var(--ff2);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  &__footer {
+  }
+  &__list-soc {
+    display: flex;
+    align-items: center;
+    gap: 15.5px;
+  }
+  &__item-soc {
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.decentral-blur1 {
+  top: -28.04rem;
+  right: -43.44rem;
+  position: absolute;
+  width: 55.5rem;
+  height: 55.5rem;
+  border-radius: 55.5rem;
+  opacity: 0.48;
+  background-color: var(--cg);
+  filter: blur(300px);
+}
+.decentral-blur2 {
+  bottom: -39.62rem;
+  left: -23.5rem;
+  position: absolute;
+  width: 55.5rem;
+  height: 55.5rem;
+  border-radius: 55.5rem;
+  opacity: 0.48;
+  background-color: var(--cg);
+  filter: blur(300px);
+}
