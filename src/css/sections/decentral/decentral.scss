@@ -10,6 +10,14 @@
   }
   &__header {
     margin-bottom: 6.06rem;
+
+    opacity: 0;
+    transform: translateY(80%);
+    transition: all 0.5s ease;
+    &.up {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   &__box {
     margin-bottom: 0.5rem;
@@ -59,14 +67,37 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 2rem;
+
+    opacity: 0;
+    transform: translateY(80%);
+    transition: all 0.5s ease;
+    &.up {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   &__text {
     text-align: center;
     font-family: var(--ff2);
     font-size: 1.5rem;
     line-height: 2.5rem;
+
+    opacity: 0;
+    transform: translateY(80%);
+    transition: all 0.5s ease;
+    &.up {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   &__footer {
+    opacity: 0;
+    transform: translateY(80%);
+    transition: all 0.5s ease;
+    &.up {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   &__list-soc {
     display: flex;
