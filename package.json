@@ -1,5 +1,5 @@
 {
-  "name": "Marli",
+  "name": "DP",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,13 +20,9 @@
   "author": "Andrii Dmytriv",
   "license": "ISC",
   "dependencies": {
-    "@splidejs/splide": "^4.1.4",
-    "axios": "^1.6.8",
     "flatpickr": "^4.6.13",
-    "hamburgers": "^1.2.1",
     "npm": "^10.7.0",
     "sass": "^1.72.0",
-    "scroll-to-element": "^2.0.3",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
