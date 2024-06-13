@@ -80,7 +80,6 @@
   }
   &__text {
     text-align: center;
-    font-family: var(--ff2);
     font-size: 1.5rem;
     line-height: 2.5rem;
 
@@ -113,8 +112,7 @@
       align-items: center;
       transition: all 200ms;
       &:hover {
-        filter: invert(64%) sepia(30%) saturate(865%) hue-rotate(105deg)
-          brightness(115%) contrast(114%);
+        filter: invert(73%) sepia(44%) saturate(713%) hue-rotate(96deg) brightness(263%) contrast(101%);
       }
     }
   }
